@@ -1,4 +1,4 @@
-package ru.yandex.javacourse.kovalev.schedule;
+package ru.yandex.javacourse.kovalev.task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,4 +22,18 @@ public class Epic extends Task {
     public void removeSubtaskId(int subtaskId) {
         subtaskIds.remove((Integer) subtaskId);
     }
+
+    // Добавляем методы setTitle и setDescription
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void cleanSubtaskIds() {
+        subtaskIds.clear();
+    }
 }
+

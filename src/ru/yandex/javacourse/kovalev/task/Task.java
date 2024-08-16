@@ -1,4 +1,6 @@
-package ru.yandex.javacourse.kovalev.schedule;
+package ru.yandex.javacourse.kovalev.task;
+
+import ru.yandex.javacourse.kovalev.schedule.Status;
 
 import java.util.Objects;
 
